@@ -56,6 +56,6 @@ app.add_event_handler("shutdown", shutdown_event)
 
 @app.post("/scan_url", status_code=202)
 async def scan_url(request: ScanURLRequest):
-    url = str(request.url, datetime.now().isoformat())
-    send_message_to_queue(url)
+    url = str(request.url)
+    send_message_to_queue(url, datetime.now().isoformat())
     return {"message": "URL accepted and being processed.", "url": url}

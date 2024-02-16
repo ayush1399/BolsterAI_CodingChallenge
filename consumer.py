@@ -9,9 +9,8 @@ from playhouse.postgres_ext import *
 from script import PlaywrightScanner
 
 db = PostgresqlDatabase(
-    "bolster",
-    user="postgres",
-    password="Password@123",
+    "postgres",
+    user="ayush1399",
     host="localhost",
     port=5432,
 )
