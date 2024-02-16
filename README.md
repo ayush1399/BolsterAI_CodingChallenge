@@ -31,6 +31,7 @@ We can also run the the app as a standalone cli tool:
 
 ```
 python script.py http://www.google.com
+python script.py --help
 ```
 
 In this case, received information is not persisted to the database, instead it is logged to the console.
