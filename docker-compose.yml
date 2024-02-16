@@ -1,0 +1,30 @@
+version: "3.8"
+services:
+  fastapi-app:
+    build: .
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+      - rabbitmq
+    environment:
+      DATABASE_URL: postgres://pg_user:Password1234@db/bolster
+      RABBITMQ_URL: amqp://guest:guest@rabbitmq/
+
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: pg_user
+      POSTGRES_PASSWORD: Password1234
+      POSTGRES_DB: bolster
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  rabbitmq:
+    image: "rabbitmq:3-management"
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
+volumes:
+  postgres_data:

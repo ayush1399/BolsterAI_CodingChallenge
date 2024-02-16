@@ -1,0 +1,24 @@
+annotated-types @ file:///home/conda/feedstock_root/build_artifacts/annotated-types_1696634205638/work
+anyio @ file:///home/conda/feedstock_root/build_artifacts/anyio_1688651106312/work/dist
+beautifulsoup4 @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_bczxn9gqkq/croot/beautifulsoup4-split_1681493044307/work
+click @ file:///home/conda/feedstock_root/build_artifacts/click_1692311806742/work
+dnspython==2.0.0
+exceptiongroup @ file:///home/conda/feedstock_root/build_artifacts/exceptiongroup_1704921103267/work
+fastapi @ file:///home/conda/feedstock_root/build_artifacts/fastapi_1707153037665/work
+greenlet @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_dd2bsq3kkw/croot/greenlet_1670513229760/work
+h11 @ file:///home/conda/feedstock_root/build_artifacts/h11_1664132893548/work
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1701026962277/work
+ipwhois==1.2.0
+peewee @ file:///Users/runner/miniforge3/conda-bld/peewee_1707154315336/work
+pika @ file:///home/conda/feedstock_root/build_artifacts/pika_1667818065465/work
+playwright @ file:///usr/local/miniconda/conda-bld/playwright_1683112955518/work
+psycopg2-binary==2.9.9
+pydantic @ file:///home/conda/feedstock_root/build_artifacts/pydantic_1707149332375/work
+pydantic_core @ file:///Users/runner/miniforge3/conda-bld/pydantic-core_1707302008358/work
+pyee @ file:///home/conda/feedstock_root/build_artifacts/pyee_1644161769477/work
+sniffio @ file:///home/conda/feedstock_root/build_artifacts/sniffio_1662051266223/work
+soupsieve @ file:///home/conda/feedstock_root/build_artifacts/soupsieve_1693929250441/work
+starlette @ file:///home/conda/feedstock_root/build_artifacts/starlette-recipe_1707149932752/work
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1702176139754/work
+uvicorn @ file:///Users/runner/miniforge3/conda-bld/uvicorn-split_1707597494344/work
+validators==0.22.0
